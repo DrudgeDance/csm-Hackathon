@@ -3,7 +3,9 @@
     "description": "Test DOM Reading",
     "version": "1.0",
     "manifest_version": 3,
-    "permissions": ["scripting", "activeTab"],
+    "permissions": ["scripting", 
+                    "activeTab",
+                    "<all_urls>"],
     "action": {                         // browser toolbar
       "default_popup": "index.html",
       "default_title": "SNEK Page Load",

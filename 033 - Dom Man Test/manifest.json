@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "DOM Reader",
+    "version": "1.0",
+    "description": "Read DOM content of the current website",
+    "permissions": ["activeTab"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "snakeShrug.png"
+      },
+    "permissions": ["activeTab"]
+  }

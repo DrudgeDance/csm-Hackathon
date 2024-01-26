@@ -27,3 +27,7 @@ https://developer.chrome.com/docs/extensions/reference/api/sidePanel
 
 Dev tools -
 https://developer.chrome.com/docs/extensions/how-to/devtools/extend-devtools
+
+
+Chrome tabs - 
+https://developer.chrome.com/docs/extensions/reference/api/tabs
