@@ -1,0 +1,9 @@
+/* popup.css */
+body {
+    width: 300px;  /* Adjust width as needed */
+    height: 200px; /* Adjust height as needed */
+    margin: 10px;
+}
+#status {
+    margin-top: 20px;
+}

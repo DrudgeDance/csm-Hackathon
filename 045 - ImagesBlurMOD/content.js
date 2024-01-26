@@ -27,5 +27,10 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
         toggleImageBlur();
         sendResponse({result: "Toggled blur effect", blurState: isBlurred});
     }
-    
+
+    if (message.command === "popupReloaded") {
+        console.log("(Page reloaded) Blur info likely changed");
+        sendResponse({ success: true });
+    }
+
 });
