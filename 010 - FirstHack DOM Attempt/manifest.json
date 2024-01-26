@@ -1,0 +1,12 @@
+{
+    "name": "Test Extension",
+    "description": "Test DOM Reading",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": ["scripting", "activeTab"],
+    "action": {                         // browser toolbar
+      "default_popup": "index.html",
+      "default_title": "SNEK Page Load",
+      "default_icon": "snakeShrug.png"
+    }
+  }
