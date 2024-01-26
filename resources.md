@@ -16,3 +16,14 @@ https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.
 
 // read dom of active tab
 https://stackoverflow.com/questions/19758028/chrome-extension-get-dom-content
+
+
+
+Side panel - 
+
+https://developer.chrome.com/docs/extensions/reference/api/sidePanel
+
+
+
+Dev tools -
+https://developer.chrome.com/docs/extensions/how-to/devtools/extend-devtools
