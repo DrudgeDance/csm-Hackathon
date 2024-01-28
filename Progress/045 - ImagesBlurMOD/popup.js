@@ -1,12 +1,17 @@
 document.addEventListener('DOMContentLoaded', function() {
+
   const toggleButton = document.getElementById('toggleBlur');
   const statusElement = document.getElementById('blurStatus');
   
+
+
   // Function to update the status text
   const updateStatus = (text) => {
     console.log("Updating status to:", text); // Log status update
     statusElement.textContent = text;
   };
+
+
 
   document.addEventListener('DOMContentLoaded', () => {
     chrome.tabs.query({active: true, currentWindow: true}, (tabs) => {
@@ -22,6 +27,8 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 
+
+
   // Event listener for the button
   toggleButton.addEventListener('click', () => {
     updateStatus("Sent a request to blur images");
@@ -36,6 +43,8 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 
+
+  
   // Initialize with current blur state
   chrome.runtime.sendMessage({request: "getBlurState"}, response => {
     console.log("Received initial blur state:", response); // Log received response
